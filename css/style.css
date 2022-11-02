@@ -1,0 +1,340 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+.max-width {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    position: relative;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 75rem;
+    display: flex;
+    justify-content: center;
+}
+span {
+    color: #14FFEC
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*---------------------SCROLL BAR---------------------*/
+::-webkit-scrollbar {
+    width: .5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #14FFEC;
+    border-radius: 1rem;
+}
+
+/*---------------------HEADER---------------------*/
+#menu {
+    width: 75rem;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 3rem;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(20, 255, 236, .6);
+    border-radius: 0rem 0rem 2rem 2rem;
+    box-shadow: 0rem 1rem 1.1rem -1rem rgb(0, 0, 0);
+}
+
+#menu ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 0rem 1rem;
+}
+
+#menu a {
+    text-decoration: none;
+    position: relative;
+    padding: .8rem;
+    color: #fff;
+    transition: 1.5s;
+    border-radius: 1rem;
+}
+
+#menu a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    text-decoration: underline;
+}
+
+/*---------------------FIRST SECTION---------------------*/
+#firstSec {
+    overflow: hidden;
+    width: 100%;
+    background-color: #111111;
+    height: 37.5rem;
+}
+
+.aboutMe-container {
+    align-items: center;
+    gap:4rem;
+    transition: 1s;
+}
+
+.aboutMe-container:hover {
+    transform: scale(1.1);
+}
+
+.aboutMe-container img {
+    width: 30%;
+    border-radius: 50%;
+    border: 0.3rem solid #14FFEC;
+}
+
+.aboutMe-container h1 {
+    color: #14FFEC;
+    font-size: 3.4em;
+    margin-bottom: 1rem;
+}
+
+.aboutMe-container p {
+    text-align: justify;
+    font-size: 1.4em;
+    width: 31.25rem;
+    margin-bottom: 3rem;
+}
+
+/*---------------------SECOND SECTION---------------------*/
+#secondSec {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    height: 25rem;
+    background-color: #323232;
+}
+
+#secondSec h2 {
+    text-align: center;
+    font-size: 2em;
+    color: rgb(255, 255, 255, 0.5);
+}
+.secondSec-container{
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.education {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    transition: 1s;
+}
+
+.education:hover {
+    transform: scale(1.1);
+}
+
+.education img {
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 0.3rem solid #14FFEC;
+}
+
+.education div {
+    display: flex;
+    flex-direction: column;
+}
+
+.education h1 {
+    text-align: left;
+    font-size: 3.4em;
+    margin-bottom: 1rem;
+}
+
+.education h3 {
+    font-size: 2em;
+    color: #14FFEC;
+}
+
+.education p {
+    font-size: 1.5em;
+    margin-bottom: 2rem;
+
+}
+
+/*---------------------THIRD SECTION---------------------*/
+
+#thirdSec {
+    transition: 1.5s;
+    display: flex;
+    height: 40rem;
+    background-color: #111111;
+    justify-content: center;
+    transition: 1s;
+    padding-bottom: 2rem;
+}
+.thirdSec-container{
+    flex-direction: column;
+}
+.thirdSec-container h2 {
+    text-align: center;
+    font-size: 2em;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.experience h3 {
+    color: #fff
+}
+
+.experience {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    transition: 1s;
+}
+
+.company:hover {
+    transform: scale(1.05);
+}
+
+.company img {
+    border: 0.3rem solid #14FFEC;
+    border-radius: 20%;
+    margin-bottom: 1rem;
+}
+
+.enterprise {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.enterprise h4 {
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+    margin-bottom: 3rem;
+}
+
+.info h3 {
+    font-size: 1.43rem;
+}
+
+/*---------------------FOURTH SECTION---------------------*/
+#fourthSec {
+    height: 30rem;
+    background-color: #323232;
+}
+.fourthSec-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+#fourthSec h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+#fourthSec h2 {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.projects {
+    margin: auto;
+    width: 74rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button {
+    height: 20rem;
+    width: 20rem;
+    background-color: rgb(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.3rem solid #14FFEC;
+    border-radius: 20%;
+    transition: 1s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.button img {
+    width: 80%;
+}
+
+/*---------------------FOOTER---------------------*/
+footer {
+    width: 100%;
+    height: 5rem;
+    padding-left: 2%;
+    padding-right: 3%;
+    background: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div {
+    max-width: 75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+footer h2 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.8em;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    list-style: none;
+}
+
+footer ul li {
+    display: flex;
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 2rem;
+    transition: .3s;
+}
+
+footer ul li a {
+    border: 0.2rem solid #14FFEC;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #14FFEC;
+    border-radius: 2rem;
+    padding: .3rem 2rem;
+    transition: 0.3s;
+}
+
+footer ul li a:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,467 @@
+/*1200-1024(64rem)-768(48rem)-480(30rem)*/
+/*min-width: 0rem)*/
+/*1024-1199 */
+@media(max-width: 74.99rem) {
+    #menu {
+        max-width: 64rem;
+    }
+    /* ---------------------------------------------- */
+    .education {
+        gap: 4rem;
+        width: 100%;
+    }
+
+    /* ---------------------------------------------- */
+    .experience {
+        flex-direction: column;
+        gap: 2rem;
+        width: 98%;
+    }
+
+    .company {
+        max-width: 64rem;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .company img {
+        margin-bottom: 0rem;
+    }
+
+    .enterprise {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+    }
+
+    .info h3 {
+        font-size: 1em;
+        width: 18rem;
+    }
+
+    /* ------------------------------------------- */
+    .projects {
+        width: 100%;
+    }
+
+    .button {
+        height: 18rem;
+        width: 18rem;
+    }
+}
+
+/*768 a 1023 */
+@media(max-width: 63.99rem) {
+    #menu {
+        display: none;
+    }
+
+    #firstSec {
+        padding-top: 0rem;
+        height: 48rem;
+    }
+
+    .aboutMe-container {
+        flex-direction: column;
+    }
+
+    .aboutMe-container h1 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .aboutMe-container p {
+        text-align: justify;
+    }
+
+    /* ------------------------------------------ */
+
+    .education {
+        justify-content: center;
+        gap: 2rem;
+    }
+    .education:hover {
+        transform: scale(1.05);
+    }
+    .education img {
+        width: 25%;
+    }
+
+    .education h1 {
+        font-size: 3em;
+        margin-bottom: .2rem;
+    }
+
+    .education h3 {
+        font-size: 1.7em;
+    }
+
+    /* ------------------------------------------ */
+    .experience {
+        flex-direction: column;
+        gap: 1.8rem;
+    }
+
+    .enterprise {
+        display: flex;
+        flex-direction: column;
+        width: 28%;
+        font-size: 1.5rem;
+    }
+
+    .company {
+        max-width: 48rem;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .company img {
+        margin-bottom: 0rem;
+    }
+
+    .info {
+        font-size: 1.6em;
+        width: 23rem;
+        margin-bottom: 2rem;
+    }
+
+    .info h3 {
+        width: 23rem;
+    }
+
+    /* ---------------------------------------- */
+    .projects {
+        width: 100%;
+    }
+
+    .button {
+        height: 14rem;
+        width: 14rem;
+    }
+
+    /* ---------------------------------------- */
+    footer div {
+        max-width: 100%;
+        justify-content: space-between;
+        gap: 1.8rem;
+    }
+
+    footer ul {
+        gap: 2rem;
+    }
+
+    footer ul li a {
+        font-size: 1em;
+    }
+}
+
+/*480 a 767 */
+@media (max-width: 47.99rem) {
+    #menu {
+        display: none;
+    }
+
+    #firstSec {
+        padding-top: 0rem;
+    }
+
+    .aboutMe-container {
+        flex-direction: column;
+    }
+
+    .aboutMe-container:hover {
+        transform: none;
+    }
+
+    .aboutMe-container h1 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .aboutMe-container p {
+        text-align: justify;
+        width: 28rem;
+    }
+
+    /* --------------------------------------- */
+    #secondSec {
+        padding-bottom: 0rem;
+        height: auto;
+    }
+
+    .education {
+        flex-direction: column;
+        justify-content: center;
+        gap: 0rem;
+        width: 100%;
+    }
+
+    .education:hover {
+        transform: none;
+    }
+
+    .education img {
+        width: 40%;
+    }
+
+    .education div {
+        align-items: center;
+    }
+
+    .education h1 {
+        font-size: 3em;
+        margin-bottom: 0rem;
+    }
+
+    .education h3 {
+        font-size: 1.5em;
+    }
+
+    /* ------------------------------------ */
+    #thirdSec {
+        padding-bottom: 1rem;
+        height: auto;
+    }
+
+    .experience {
+        width: 100%;
+        flex-direction: column;
+        margin: auto;
+        gap: 1rem;
+    }
+
+    .company {
+        max-width: 30rem;
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .company:hover {
+        transform: none;
+    }
+
+    .company img {
+        margin-bottom: 0rem;
+    }
+
+    .enterprise {
+        display: flex;
+        flex-direction: column;
+        width: 28%;
+        font-size: 1.5rem;
+    }
+
+    .info {
+        text-align: center;
+        font-size: 1.6em;
+        width: 100%;
+        margin-bottom: 0rem;
+    }
+    .info h3{
+        width: 100%;
+    }
+
+    /* ---------------------------------------- */
+    .projects {
+        gap: 1rem;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .button {
+        height: 11rem;
+        width: 11rem;
+    }
+
+    /* ---------------------------------------- */
+    footer {
+        height: 8rem
+    }
+
+    footer div {
+        max-width: 100%;
+        flex-direction: column;
+        gap: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    footer ul {
+        gap: 1rem;
+    }
+
+    footer ul li a {
+        font-size: .9em;
+        padding: .3rem 2rem;
+    }
+
+    footer ul li a:hover {
+        transform: none;
+    }
+}
+
+/*0 a 479*/
+@media (max-width: 29.99rem) {
+    #menu {
+        display: none;
+    }
+
+    #firstSec {
+        padding-top: 0rem;
+    }
+
+    .aboutMe-container {
+        flex-direction: column;
+    }
+
+    .aboutMe-container:hover {
+        transform: none;
+    }
+
+    .aboutMe-container img {
+        width: 70%;
+    }
+
+    .aboutMe-container h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        width: auto;
+    }
+
+    .aboutMe-container p {
+        width: auto;
+        font-size: 1.3rem;
+        text-align: justify;
+    }
+
+    /* --------------------------------------- */
+    #secondSec {
+        padding-bottom: 0rem;
+        height: auto;
+    }
+
+    .education {
+        flex-direction: column;
+        justify-content: center;
+        gap: 0rem;
+        width: 100%;
+    }
+
+    .education:hover {
+        transform: none;
+    }
+
+    .education img {
+        width: 50%;
+    }
+
+    .education div {
+        align-items: center;
+    }
+
+    .education h1 {
+        font-size: 2em;
+        margin-bottom: 0rem;
+    }
+
+    .education h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .education p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    /* ------------------------------------ */
+    #thirdSec {
+        padding-bottom: 1rem;
+    }
+
+    .experience {
+        width: 100%;
+        flex-direction: column;
+        margin: auto;
+        gap: 1rem;
+    }
+
+    .enterprise {
+        display: flex;
+        flex-direction: column;
+        width: 28%;
+        font-size: 1.5rem;
+    }
+
+    .company {
+        max-width: 29.99rem;
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .company:hover {
+        transform: none;
+    }
+
+    .company img {
+        margin-bottom: 0rem;
+    }
+
+    .info {
+        text-align: center;
+        font-size: 1.6em;
+        width: 100%;
+        margin-bottom: 0rem;
+    }
+
+    /* ---------------------------------------- */
+    .fourthSec-container{
+        height: auto;
+    }
+    .projects {
+        gap: 1rem;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .button {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .button:hover {
+        transform: none;
+    }
+
+    /* ---------------------------------------- */
+    footer {
+        height: auto
+    }
+
+    footer div {
+        max-width: 100%;
+        flex-direction: column;
+        gap: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    footer ul li a {
+        text-align: center;
+        font-size: auto;
+        width: 100%;
+        padding: .3rem 2rem;
+    }
+
+    footer ul li a:hover {
+        transform: none;
+    }
+}
