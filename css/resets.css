@@ -19,3 +19,12 @@ body {
     background-attachment: fixed;
     font-family: 'Poppins', sans-serif;
 }
+h1{
+    font-size: 3.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.4rem;
+}

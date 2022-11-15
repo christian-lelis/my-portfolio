@@ -2,45 +2,65 @@
 /*min-width: 0rem)*/
 /*1024-1199 */
 @media(max-width: 74.99rem) {
+
     #menu {
         max-width: 64rem;
     }
 
     /* ---------------------------------------------- */
-    .education {
-        gap: 4rem;
-        width: 100%;
+    .net {
+        right: 2%;
     }
 
     /* ---------------------------------------------- */
-    .experience {
-        flex-direction: column;
-        gap: 2rem;
-        width: 98%;
+    #firstSec {
+        padding: 12rem 2rem 13rem 2rem;
     }
 
-    .company {
-        max-width: 64rem;
-        gap: 1rem;
-        justify-content: center;
+    .aboutMe-info p {
+        width: 28rem;
     }
 
-    .company img {
-        margin-bottom: 0rem;
+    /* ---------------------------------------------- */
+    #secondSec {
+        padding: 2rem 2rem 3rem 2rem;
     }
 
-    .enterprise {
-        display: flex;
-        flex-direction: column;
+    .education {
+        gap: 4rem;
+    }
+    .education img{
         width: 20%;
     }
 
-    .info h3 {
-        font-size: 1em;
-        width: 18rem;
+    /* ---------------------------------------------- */
+    #thirdSec {
+        padding: 2rem 2rem 3rem 2rem;
+    }
+
+    .experience {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .company {
+        justify-content: center;
+        gap: 1rem;
+    }
+    .company img{
+        width: 20%;
+    }
+    .info p {
+        width: 24rem;
     }
 
     /* ------------------------------------------- */
+    #fourthSec {
+        height: auto;
+        background-color: #323232;
+        padding: 2rem 2rem 3rem 2rem;
+    }
+
     .projects {
         width: 100%;
     }
@@ -48,6 +68,10 @@
     .button {
         height: 18rem;
         width: 18rem;
+    }
+
+    #contacts {
+        padding: 4rem 2rem;
     }
 }
 
@@ -57,18 +81,26 @@
         display: none;
     }
 
+    .net {
+
+        display: none;
+    }
+
     #firstSec {
-        padding-top: 0rem;
-        height: 48rem;
+        padding: 4rem 2rem;
     }
 
     .aboutMe-container {
         flex-direction: column;
+        gap: 2rem;
+    }
+
+    .aboutMe-container img {
+        width: 50%;
     }
 
     .aboutMe-container h1 {
         text-align: center;
-        margin-bottom: 1rem;
     }
 
     .aboutMe-container p {
@@ -76,10 +108,14 @@
     }
 
     /* ------------------------------------------ */
+    #secondSec {
+        padding: 4rem 2rem;
+    }
 
     .education {
-        justify-content: center;
-        gap: 2rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
     }
 
     .education:hover {
@@ -87,74 +123,77 @@
     }
 
     .education img {
-        width: 25%;
+        width: 28%;
     }
 
     .education h1 {
-        font-size: 3em;
-        margin-bottom: .2rem;
+        text-align: center;
+        margin-bottom: 0;
     }
 
-    .education h3 {
-        font-size: 1.7em;
+    .education h2 {
+        text-align: center;
+    }
+
+    .education p {
+        text-align: center;
     }
 
     /* ------------------------------------------ */
+    #thirdSec {
+        padding: 4rem 2rem;
+    }
+
     .experience {
         flex-direction: column;
-        gap: 1.8rem;
+        gap: 1.5rem;
     }
-
-    .enterprise {
-        display: flex;
-        flex-direction: column;
+    .company img{
         width: 28%;
-        font-size: 1.5rem;
     }
-
     .company {
-        max-width: 48rem;
         gap: 1rem;
         justify-content: center;
-    }
-
-    .company img {
-        margin-bottom: 0rem;
     }
 
     .info {
         font-size: 1.6em;
         width: 23rem;
-        margin-bottom: 2rem;
-    }
-
-    .info h3 {
-        width: 23rem;
     }
 
     /* ---------------------------------------- */
+    #fourthSec {
+        display: none;
+        padding: 2rem 4rem 3rem 4rem;
+    }
+
     .projects {
         width: 100%;
     }
 
     .button {
-        height: 14rem;
-        width: 14rem;
+        height: 12rem;
+        width: 12rem;
     }
 
     /* ---------------------------------------- */
-    footer div {
+    #contacts {
+        padding: 4rem 2rem 1rem 2rem;
+    }
+
+    #contacts div {
         max-width: 100%;
         justify-content: space-between;
-        gap: 1.8rem;
+        gap: 3rem;
     }
-
-    footer ul {
-        gap: 2rem;
+    #contacts ul{
+        display: flex;
     }
-
-    footer ul li a {
+    #contacts ul li a {
         font-size: 1em;
+    }
+    svg {
+        fill: #14FFEC;
     }
 }
 
@@ -165,11 +204,15 @@
     }
 
     #firstSec {
-        padding-top: 0rem;
+        padding: 9rem 2rem;
     }
 
     .aboutMe-container {
         flex-direction: column;
+    }
+
+    .aboutMe-container img {
+        width: 70%;
     }
 
     .aboutMe-container:hover {
@@ -178,25 +221,17 @@
 
     .aboutMe-container h1 {
         text-align: center;
-        margin-bottom: 1rem;
     }
 
     .aboutMe-container p {
         text-align: justify;
-        width: 28rem;
+        width: auto;
     }
 
     /* --------------------------------------- */
     #secondSec {
-        padding-bottom: 0rem;
+        padding: 4rem 2rem;
         height: auto;
-    }
-
-    .education {
-        flex-direction: column;
-        justify-content: center;
-        gap: 0rem;
-        width: 100%;
     }
 
     .education:hover {
@@ -204,38 +239,21 @@
     }
 
     .education img {
-        width: 40%;
+        width: 50%;
     }
 
     .education div {
         align-items: center;
     }
 
-    .education h1 {
-        font-size: 3em;
-        margin-bottom: 0rem;
-    }
-
-    .education h3 {
-        font-size: 1.5em;
-    }
-
     /* ------------------------------------ */
     #thirdSec {
-        padding-bottom: 1rem;
+        padding: 4rem 2rem;
         height: auto;
-    }
-
-    .experience {
-        width: 100%;
-        flex-direction: column;
-        margin: auto;
-        gap: 1rem;
     }
 
     .company {
         max-width: 30rem;
-        gap: 1rem;
         flex-direction: column;
         align-items: center;
     }
@@ -245,33 +263,26 @@
     }
 
     .company img {
-        margin-bottom: 0rem;
-    }
-
-    .enterprise {
-        display: flex;
-        flex-direction: column;
-        width: 28%;
-        font-size: 1.5rem;
+        width: 50%;
     }
 
     .info {
+        align-items: center;
         text-align: center;
-        font-size: 1.6em;
-        width: 100%;
-        margin-bottom: 0rem;
-    }
-
-    .info h3 {
-        width: 100%;
     }
 
     /* ---------------------------------------- */
+    #fourthSec {
+        display: none;
+        padding: 2rem 2rem 3rem 2rem;
+    }
+
     .projects {
+        display: none;
         gap: 1rem;
         flex-wrap: wrap;
-        width: 100%;
         justify-content: center;
+        height: auto;
     }
 
     .button {
@@ -280,28 +291,33 @@
     }
 
     /* ---------------------------------------- */
-    footer {
-        height: 8rem
+    #contacts {
+        height: auto;
+        padding: 3rem 2rem 1rem 2rem;
     }
 
-    footer div {
+    #contacts div {
         max-width: 100%;
         flex-direction: column;
-        gap: 1rem;
-        padding-bottom: 1rem;
+        gap: 3rem;
     }
 
-    footer ul {
-        gap: 1rem;
+    #contacts ul {
+        width: 100%;
+        gap: 0rem;
+        justify-content: space-between;
     }
 
-    footer ul li a {
+    #contacts ul li a {
         font-size: .9em;
-        padding: .3rem 2rem;
+        padding: .6rem 1rem;
     }
 
-    footer ul li a:hover {
+    #contacts ul li a:hover {
         transform: none;
+    }
+    svg {
+        fill: #14FFEC;
     }
 }
 
@@ -312,7 +328,7 @@
     }
 
     #firstSec {
-        padding-top: 0rem;
+        padding: 4rem 2rem;
     }
 
     .aboutMe-container {
@@ -324,7 +340,7 @@
     }
 
     .aboutMe-container img {
-        width: 70%;
+        width: 80%;
     }
 
     .aboutMe-container h1 {
@@ -342,7 +358,7 @@
 
     /* --------------------------------------- */
     #secondSec {
-        padding-bottom: 0rem;
+        padding: 3rem 2rem;
         height: auto;
     }
 
@@ -350,7 +366,6 @@
         flex-direction: column;
         justify-content: center;
         gap: 0rem;
-        width: 100%;
     }
 
     .education:hover {
@@ -358,7 +373,7 @@
     }
 
     .education img {
-        width: 50%;
+        width: 60%;
     }
 
     .education div {
@@ -370,20 +385,20 @@
         margin-bottom: 0rem;
     }
 
-    .education h3 {
+    .education h2 {
         font-size: 1.5rem;
         text-align: center;
     }
 
     .education p {
-        font-size: 1rem;
+        font-size: 1.3rem;
         text-align: center;
     }
 
     /* ------------------------------------ */
     #thirdSec {
         height: auto;
-        padding-bottom: 1rem;
+        padding: 3rem 2rem;
     }
 
     .thirdSec-container {
@@ -392,46 +407,39 @@
 
     .experience {
         width: 100%;
-        flex-direction: column;
+        gap: 2rem;
         margin: auto;
-        gap: 1rem;
-    }
-
-    .enterprise {
-        display: flex;
-        flex-direction: column;
-        width: 60%;
-        font-size: 1.5rem;
-    }
-
-    .company {
-        max-width: 29.99rem;
-        gap: 1rem;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .company:hover {
-        transform: none;
     }
 
     .company img {
-        margin-bottom: 0rem;
+        width: 60%;
+    }
+
+    .company {
+        gap: 1rem;
     }
 
     .info {
-        text-align: center;
-        font-size: 1.6em;
         width: 100%;
-        margin-bottom: 0rem;
+    }
+
+    .info p {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 1.1rem;
     }
 
     /* ---------------------------------------- */
     #fourthSec {
+        display: none;
         height: auto;
+        padding: 2rem 2rem;
     }
 
     .projects {
+        display: none;
         gap: 1rem;
         flex-wrap: wrap;
         width: 100%;
@@ -448,31 +456,32 @@
     }
 
     /* ---------------------------------------- */
-    footer {
-        height: auto
+    #contacts {
+        padding: 3rem 2rem 1rem 2rem;
+        height: auto;
     }
 
-    footer div {
+    #contacts div {
         max-width: 100%;
         flex-direction: column;
-        gap: 1rem;
-        padding-bottom: 1rem;
+        gap: 3rem;
     }
 
-    footer ul {
+    #contacts ul {
         display: flex;
-        flex-direction: column;
-        gap: 1rem;
+        gap: 0rem;
     }
 
-    footer ul li a {
+    #contacts ul li a {
         text-align: center;
         font-size: auto;
         width: 100%;
-        padding: .3rem 4rem;
+        padding: .5;
     }
-
-    footer ul li a:hover {
+    svg{
+        fill: #14FFEC;
+    }
+    #contacts ul li a:hover {
         transform: none;
     }
 }
