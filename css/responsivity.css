@@ -4,7 +4,12 @@
 @media(max-width: 74.99rem) {
 
     #menu {
-        max-width: 64rem;
+        max-width: 54rem;
+    }
+
+    /*-------------------------FLAGS------------------------*/
+    .flags nav {
+        max-width: 60.4rem;
     }
 
     /* ---------------------------------------------- */
@@ -29,7 +34,8 @@
     .education {
         gap: 4rem;
     }
-    .education img{
+
+    .education img {
         width: 20%;
     }
 
@@ -47,9 +53,11 @@
         justify-content: center;
         gap: 1rem;
     }
-    .company img{
+
+    .company img {
         width: 20%;
     }
+
     .info p {
         width: 24rem;
     }
@@ -81,8 +89,26 @@
         display: none;
     }
 
-    .net {
+    /*-------------------------FLAGS------------------------*/
 
+    .flags {
+        width: 100%;
+        right: 0%;
+    }
+
+    .flags ul {
+        justify-content: center;
+        gap: .3rem;
+    }
+    .flags svg{
+        width: 100%;
+        height: 2rem;
+        display: flex;
+        transition: ease-in-out .2s;
+    }
+    /*-------------------------COLUMN------------------------*/
+
+    .net {
         display: none;
     }
 
@@ -96,7 +122,7 @@
     }
 
     .aboutMe-container img {
-        width: 50%;
+        width: 40%;
     }
 
     .aboutMe-container h1 {
@@ -148,9 +174,11 @@
         flex-direction: column;
         gap: 1.5rem;
     }
-    .company img{
+
+    .company img {
         width: 28%;
     }
+
     .company {
         gap: 1rem;
         justify-content: center;
@@ -186,12 +214,15 @@
         justify-content: space-between;
         gap: 3rem;
     }
-    #contacts ul{
+
+    #contacts ul {
         display: flex;
     }
+
     #contacts ul li a {
         font-size: 1em;
     }
+
     svg {
         fill: #14FFEC;
     }
@@ -316,6 +347,7 @@
     #contacts ul li a:hover {
         transform: none;
     }
+
     svg {
         fill: #14FFEC;
     }
@@ -478,9 +510,11 @@
         width: 100%;
         padding: .5;
     }
-    svg{
+
+    svg {
         fill: #14FFEC;
     }
+
     #contacts ul li a:hover {
         transform: none;
     }

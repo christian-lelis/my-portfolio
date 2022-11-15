@@ -1,0 +1,12 @@
+.flags .pt svg{
+    opacity: 1;
+ }
+ .flags .pt svg:hover{
+    opacity: 1;
+ }
+.flags .en svg{
+    opacity: .2;
+ }
+ .flags .en svg:hover{
+    opacity: 1;
+ }
