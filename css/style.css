@@ -69,12 +69,13 @@ html {
 }
 
 #menu a:hover {
-    color:#fff;
+    color: #fff;
     background-color: rgba(0, 0, 0, 0.3);
     text-decoration: underline;
 }
+
 /*-------------------------COLUMN------------------------*/
-.net{
+.net {
     height: 100%;
     position: fixed;
     display: flex;
@@ -82,16 +83,19 @@ html {
     right: 3%;
     z-index: 1;
 }
-.net ul{
+
+.net ul {
     display: flex;
     flex-direction: column;
-    gap:.5rem
+    gap: .5rem
 }
-.net ul li{
+
+.net ul li {
     display: flex;
     list-style: none;
 }
-.net ul li a{
+
+.net ul li a {
     border: .125rem solid transparent;
     border-radius: 1rem;
     display: flex;
@@ -99,15 +103,18 @@ html {
     transition: ease-in-out .2s;
     outline: none;
 }
-.net ul li a:hover{
+
+.net ul li a:hover {
     transform: translateY(-5px);
 }
-svg{
+
+svg {
     fill: #444444;
 }
-a:hover svg{
-    fill:#14FFEC
-    }
+
+a:hover svg {
+    fill: #14FFEC
+}
 
 /*---------------------FIRST SECTION---------------------*/
 #firstSec {
@@ -167,7 +174,7 @@ a:hover svg{
 
 .secondSec-container {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     flex-direction: column;
 }
 
@@ -222,7 +229,7 @@ a:hover svg{
 
 .thirdSec-container {
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .title {
@@ -263,9 +270,10 @@ a:hover svg{
     gap: .5rem;
 }
 
-.info p{
+.info p {
     width: 24rem;
 }
+
 .company span {
     font-weight: 600;
 }
@@ -342,12 +350,18 @@ a:hover svg{
     width: 100%;
     max-width: 30rem;
 }
-.form label, input, textarea, button {
+
+.form label,
+input,
+textarea,
+button {
     padding: .5rem;
     font-size: 1.3rem;
     font-weight: 600;
 }
-.form input, textarea{
+
+.form input,
+textarea {
     padding: 1rem;
     margin-bottom: 1rem;
     color: #14FFEC;
@@ -356,6 +370,7 @@ a:hover svg{
     border: .15rem solid transparent;
     text-decoration: none;
 }
+
 .form textarea {
     min-height: 12rem;
     resize: vertical;
@@ -365,19 +380,22 @@ a:hover svg{
 input:hover,
 input:focus,
 textarea:hover,
-textarea:focus{
+textarea:focus {
     outline: none;
     border-color: #14FFEC;
     box-shadow: 0 0 .5rem .2rem rgba(255, 255, 255, 0.093);
 }
+
 .form button {
-    margin-top:1rem ;
-    color:#ffffff;
+    margin-top: 1rem;
+    color: #ffffff;
     background-color: #14ffeb4d;
     border-radius: 2rem;
     transition: .3s;
 }
-.form button:hover,button:hover{
+
+.form button:hover,
+button:hover {
     outline: none;
     background-color: #14ffeba6;
     box-shadow: 0 0 .5rem .2rem #ffffff0e;
@@ -385,8 +403,7 @@ textarea:focus{
 }
 
 #contacts .title {
-    color: rgba(255, 255, 255, 1);
-    font-size: 1.8em;
+    color: rgba(255, 255, 255, .5);
 }
 
 #contacts ul {
@@ -396,11 +413,12 @@ textarea:focus{
     list-style: none;
 }
 
-#contacts ul li{
+#contacts ul li {
     display: flex;
     list-style: none;
 }
-#contacts ul li a{
+
+#contacts ul li a {
     border: .125rem solid transparent;
     border-radius: 1rem;
     display: flex;
@@ -408,15 +426,19 @@ textarea:focus{
     transition: ease-in-out .2s;
     outline: none;
 }
-#contacts ul li a:hover{
+
+#contacts ul li a:hover {
     transform: translateY(-5px);
 }
-svg{
+
+svg {
     fill: #444444;
 }
-a:hover svg{
-    fill:#14FFEC
-    }
+
+a:hover svg {
+    fill: #14FFEC
+}
+
 /*---------------------FOOTER---------------------*/
 footer {
     width: 100%;
@@ -425,15 +447,17 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #111111;
-    
+
 }
+
 a {
     padding: 1rem 1rem;
     max-width: 74rem;
     text-decoration: none;
-    color:#505050;
+    color: #505050;
     transition: ease-in-out .5s;
 }
-a:hover{
+
+a:hover {
     color: #14FFEC;
 }
