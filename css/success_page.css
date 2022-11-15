@@ -1,15 +1,17 @@
-*{
+* {
     border: none;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     height: 100vh;
     width: 100%;
     background-color: #111111;
 }
-main{
+
+main {
     height: 100%;
     max-width: 74rem;
     margin-left: auto;
@@ -18,25 +20,68 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color:#14FFEC;
+    color: #14FFEC;
     background-color: #111111;
     font-family: 'Poppins', sans-serif;
     gap: 2rem;
 }
-h1{
+
+h1 {
     font-size: 4rem;
 }
-a{
+
+a {
     font-size: 2rem;
     color: #ffffffee;
     padding: 2rem 4rem;
     background-color: #444444;
     text-decoration: none;
     border-radius: 1rem;
-    font-weight:600;
+    font-weight: 600;
     transition: .3s;
 }
-a:hover{
+
+a:hover {
     background-color: #14FFEC;
     color: #111111;
+}
+
+@media(max-width: 74.99rem) {
+    main {
+        padding: 3rem;
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 63.99rem) {
+    a {
+        background-color: #14FFEC;
+        color: #111111;
+    }
+    
+    a:hover {
+        display: none;
+    }
+}
+
+@media (max-width: 47.99rem) {
+    h1 {
+        font-size: 2.9rem;
+    }
+    a {
+        padding: 2rem 3rem;
+    }
+    
+}
+
+@media (max-width: 29.99rem) {
+    h1 {
+        font-size: 2rem;
+    }
+    a {
+        font-size: 1.5rem;
+        padding: 2rem 1rem;
+    }
+    
 }
