@@ -59,29 +59,27 @@ a:hover {
         background-color: #14FFEC;
         color: #111111;
     }
-    
-    a:hover {
-        display: none;
-    }
 }
 
 @media (max-width: 47.99rem) {
     h1 {
         font-size: 2.9rem;
     }
+
     a {
         padding: 2rem 3rem;
     }
-    
+
 }
 
 @media (max-width: 29.99rem) {
     h1 {
         font-size: 2rem;
     }
+
     a {
         font-size: 1.5rem;
         padding: 2rem 1rem;
     }
-    
+
 }
