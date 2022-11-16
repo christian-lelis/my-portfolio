@@ -226,12 +226,12 @@
 
     #contacts ul li a {
         font-size: 1em;
-        animation: svg-transition 3s ease-in-out infinite;
+        animation: svg-transition 4s ease-in-out alternate infinite;
     }
 
     svg {
         fill: #444444;
-        animation: svg-color-transition 3s ease-in-out infinite;
+        animation: svg-color-transition 4s ease-in-out alternate infinite;
     }
 
     @keyframes svg-transition {
