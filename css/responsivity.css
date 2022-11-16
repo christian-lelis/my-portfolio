@@ -100,12 +100,14 @@
         justify-content: center;
         gap: .3rem;
     }
-    .flags svg{
+
+    .flags svg {
         width: 100%;
         height: 2rem;
         display: flex;
         transition: ease-in-out .2s;
     }
+
     /*-------------------------COLUMN------------------------*/
 
     .net {
@@ -206,7 +208,7 @@
 
     /* ---------------------------------------- */
     #contacts {
-        padding: 4rem 2rem 1rem 2rem;
+        padding: 4rem 2rem 1.5rem 2rem;
     }
 
     #contacts div {
@@ -216,15 +218,53 @@
     }
 
     #contacts ul {
+        width: 100%;
         display: flex;
+        max-width: 30rem;
+        justify-content: space-between;
     }
 
     #contacts ul li a {
         font-size: 1em;
+        animation: svg-transition 3s ease-in-out infinite;
     }
 
     svg {
-        fill: #14FFEC;
+        fill: #444444;
+        animation: svg-color-transition 3s ease-in-out infinite;
+    }
+
+    @keyframes svg-transition {
+        0% {
+            transform: translateY(4px);
+        }
+
+        50% {
+            transform: translateY(-4px);
+        }
+
+        100% {
+            transform: translateY(4px);
+        }
+
+    }
+
+    @keyframes svg-color-transition {
+        0% {
+            fill: rgba(20, 255, 235, 0.3);
+        }
+
+        48% {
+            fill: #14FFEC;
+        }
+
+        52% {
+            fill: #14FFEC;
+        }
+
+        100% {
+            fill: rgba(20, 255, 235, 0.3);
+        }
     }
 }
 
@@ -324,19 +364,7 @@
     /* ---------------------------------------- */
     #contacts {
         height: auto;
-        padding: 3rem 2rem 1rem 2rem;
-    }
-
-    #contacts div {
-        max-width: 100%;
-        flex-direction: column;
-        gap: 3rem;
-    }
-
-    #contacts ul {
-        width: 100%;
-        gap: 0rem;
-        justify-content: space-between;
+        padding: 3rem 2rem 1.5rem 2rem;
     }
 
     #contacts ul li a {
@@ -489,33 +517,7 @@
 
     /* ---------------------------------------- */
     #contacts {
-        padding: 3rem 2rem 1rem 2rem;
+        padding: 3rem 2rem 1.5rem 2rem;
         height: auto;
-    }
-
-    #contacts div {
-        max-width: 100%;
-        flex-direction: column;
-        gap: 3rem;
-    }
-
-    #contacts ul {
-        display: flex;
-        gap: 0rem;
-    }
-
-    #contacts ul li a {
-        text-align: center;
-        font-size: auto;
-        width: 100%;
-        padding: .5;
-    }
-
-    svg {
-        fill: #14FFEC;
-    }
-
-    #contacts ul li a:hover {
-        transform: none;
     }
 }
