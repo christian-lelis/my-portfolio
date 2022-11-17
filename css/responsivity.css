@@ -225,7 +225,6 @@
     }
 
     #contacts ul li a {
-        font-size: 1em;
         animation: svg-transition 4s ease-in-out alternate infinite;
     }
 
@@ -368,8 +367,7 @@
     }
 
     #contacts ul li a {
-        font-size: .9em;
-        padding: .6rem 1rem;
+        padding: .6rem .5rem;
     }
 
     #contacts ul li a:hover {
@@ -519,5 +517,11 @@
     #contacts {
         padding: 3rem 2rem 1.5rem 2rem;
         height: auto;
+    }
+}
+
+@media (max-width: 17.5rem) {
+    #contacts ul li a {
+        padding: .6rem .2rem;
     }
 }

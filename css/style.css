@@ -73,6 +73,7 @@ html {
     background-color: rgba(0, 0, 0, 0.3);
     text-decoration: underline;
 }
+
 /*-------------------------FLAGS------------------------*/
 
 .flags {
@@ -82,32 +83,37 @@ html {
     display: flex;
     justify-content: center;
 }
-.flags nav{
+
+.flags nav {
     width: 100%;
     max-width: 70rem;
 }
+
 .flags ul {
     display: flex;
     list-style: none;
 }
 
-.flags a{
+.flags a {
     display: flex;
     justify-content: center;
     margin: .5rem .3rem;
 }
-.flags svg{
+
+.flags svg {
     width: 100%;
     height: 2rem;
     display: flex;
     transition: ease-in-out .2s;
 }
-.flags .pt svg{
+
+.flags .pt svg {
     opacity: 0.2;
 }
-.flags .pt svg:hover{
+
+.flags .pt svg:hover {
     opacity: 1;
- }
+}
 
 /*-------------------------COLUMN------------------------*/
 .net {
@@ -174,6 +180,7 @@ html {
 
 .aboutMe-container img {
     width: 30%;
+    max-width: 22rem;
     border-radius: 50%;
     border: 0.3rem solid #14FFEC;
 }
@@ -490,6 +497,7 @@ footer a {
     text-decoration: none;
     color: #505050;
     transition: ease-in-out .5s;
+    text-align: center;
 }
 
 footer a:hover {
