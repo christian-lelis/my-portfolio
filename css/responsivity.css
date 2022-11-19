@@ -50,12 +50,20 @@
     }
 
     .company {
-        justify-content: center;
         gap: 1rem;
     }
-
+    .company div{
+        margin-right: 18.5rem;
+    }
+    .company2 div {
+        margin-right: unset;
+    }
     .company img {
         width: 20%;
+        margin-left:4rem ;
+    }
+    .company2 img{
+        margin-left: 18rem;
     }
 
     .info p {
@@ -79,8 +87,24 @@
     }
 
     #contacts {
-        padding: 4rem 2rem;
+        padding: 4rem 4rem;
     }
+    #contacts .contacts-container {
+        max-width: 64rem;
+    }
+    .left {
+        width: 40%;
+    }
+    .right{
+        width: 50%;
+    }
+    .form-sides{
+        justify-content: space-evenly;
+    }
+    .form input,
+textarea {
+    width: 100%;
+}
 }
 
 /*768 a 1023 */
@@ -179,14 +203,26 @@
 
     .company img {
         width: 28%;
+        margin-left:unset; 
     }
 
     .company {
+        flex-direction: column;
+        align-items: center;
         gap: 1rem;
         justify-content: center;
     }
+    .company div{
+        margin-right: unset;
+    }
+    .company2 img{
+        margin-right: unset;
+        margin-left: unset;
+    }
 
     .info {
+        align-items: center;
+        text-align: center;
         font-size: 1.6em;
         width: 23rem;
     }
@@ -210,12 +246,30 @@
     #contacts {
         padding: 4rem 2rem 1.5rem 2rem;
     }
-
-    #contacts div {
-        max-width: 100%;
-        justify-content: space-between;
-        gap: 3rem;
-    }
+.form{
+    max-width: 30rem;
+}
+.form-sides{
+    flex-direction: column !important;
+    justify-content: center;
+    
+}
+.left{
+    align-self: center;
+    width: 100%;
+}
+.form input,
+textarea {
+    width: unset;
+}
+.right{
+    width: 100%;
+    align-self: center;
+    max-width: unset;
+}
+.form textarea {
+    min-height: 10rem
+}
 
     #contacts ul {
         width: 100%;
@@ -310,6 +364,7 @@
 
     .education img {
         width: 50%;
+        max-width: 18rem;
     }
 
     .education div {
@@ -321,9 +376,11 @@
         padding: 4rem 2rem;
         height: auto;
     }
+    .experience{
+        align-self: center;
+    }
 
     .company {
-        max-width: 30rem;
         flex-direction: column;
         align-items: center;
     }
@@ -334,11 +391,7 @@
 
     .company img {
         width: 50%;
-    }
-
-    .info {
-        align-items: center;
-        text-align: center;
+        max-width: 35rem;
     }
 
     /* ---------------------------------------- */
