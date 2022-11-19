@@ -392,7 +392,7 @@ html {
     max-width: 64rem;
     align-items: center;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .form {
@@ -428,7 +428,7 @@ button {
     font-weight: 600;
 }
 .form label{
-    padding: 1rem 0rem;
+    padding: .5rem 0rem;
 }
 .form input,
 textarea {
@@ -443,7 +443,7 @@ textarea {
 }
 
 .form textarea {
-    min-height: 17.75rem;
+    min-height: 14.47rem;
     width: 100%;
     resize: vertical;
     font-family: 'Poppins', sans-serif;
@@ -461,7 +461,7 @@ textarea:focus {
 .form button {
     
     color: #ffffff;
-    padding: .5rem;
+    padding: 1.13rem;
     background-color: #14ffeb4d;
     border-radius: 1rem;
     transition: .3s;

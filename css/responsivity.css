@@ -105,6 +105,9 @@
 textarea {
     width: 100%;
 }
+.form button {
+    padding: 1.14rem;
+}
 }
 
 /*768 a 1023 */
@@ -277,7 +280,9 @@ textarea {
         max-width: 30rem;
         justify-content: space-between;
     }
-
+    .form button {
+        padding: .5rem;
+    }
     #contacts ul li a {
         animation: svg-transition 4s ease-in-out alternate infinite;
     }
