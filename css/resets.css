@@ -20,10 +20,13 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 3.5rem;
+    font-size: 3.0rem;
 }
 h2{
     font-size: 2rem;
+}
+h3{
+    font-size: 1.8rem;
 }
 p{
     font-size: 1.4rem;

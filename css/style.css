@@ -71,7 +71,6 @@ html {
 #menu a:hover {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.3);
-    text-decoration: underline;
 }
 
 /*-------------------------FLAGS------------------------*/
@@ -104,11 +103,11 @@ html {
     width: 100%;
     height: 2rem;
     display: flex;
-    transition: ease-in-out .2s;
+    transition: ease-in-out .1s;
 }
 
 .flags .pt svg {
-    opacity: 0.2;
+    opacity: 0.6;
 }
 
 .flags .pt svg:hover {
@@ -150,11 +149,13 @@ html {
 }
 
 .net svg {
-    fill: #444444;
+    fill: #fff;
+    opacity: .2;
 }
 
 .net a:hover svg {
-    fill: #14FFEC
+    opacity: 1;
+    fill: #14FFEC;
 }
 
 /*---------------------FIRST SECTION---------------------*/
@@ -162,8 +163,7 @@ html {
     width: 100%;
     overflow: hidden;
     background-color: #111111;
-    height: auto;
-    padding: 13rem 6rem 14rem 6rem;
+    padding: 14rem 12rem 15rem 12rem;
 }
 
 .aboutMe-container {
@@ -179,7 +179,7 @@ html {
 }
 
 .aboutMe-container img {
-    width: 30%;
+    width: 35%;
     max-width: 22rem;
     border-radius: 50%;
     border: 0.3rem solid #14FFEC;
@@ -205,8 +205,8 @@ html {
     display: flex;
     justify-content: center;
     height: auto;
-    background-color: #171717;
-    padding: 3rem 6rem 4rem 6rem;
+    background-color: #031e1b;
+    padding: 3rem 12rem 5rem 12rem;
 }
 
 .title {
@@ -233,7 +233,9 @@ html {
 }
 
 .education img {
-    width: 17%;
+    width: 25%;
+    min-width: 13.5rem;
+    max-width: 15.5rem;
     background-color: #ffffff;
     border-radius: 50%;
     border: 0.3rem solid #14FFEC;
@@ -244,18 +246,15 @@ html {
     flex-direction: column;
 }
 
-.education h1 {
-    text-align: left;
-    margin-bottom: 1rem;
+.education span {
+    color: #fff;
 }
 
-.education h2 {
-    font-size: 2em;
+.education h3 {
     color: #14FFEC;
 }
 
 .education p {
-    font-size: 1.5em;
     margin-bottom: 2rem;
 }
 
@@ -264,9 +263,9 @@ html {
 #thirdSec {
     display: flex;
     height: auto;
-    background-color: #111111;
+    background-color: #171717;
     justify-content: center;
-    padding: 3rem 6rem 4rem 6rem;
+    padding: 3rem 12rem 4rem 12rem;
 }
 
 .thirdSec-container {
@@ -281,15 +280,17 @@ html {
 
 .experience {
     display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    gap:6rem
 }
 
 .company {
+    height: 100%;
     width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     gap: 1rem;
-    justify-content: center;
     transition: .3s;
 }
 
@@ -298,20 +299,13 @@ html {
 }
 
 .company img {
-    width: 17%;
+    width: 56%;
+    min-width: 13.5rem;
+    max-width: 15.5rem;
     border: 0.3rem solid #14FFEC;
     border-radius: 50%;
 }
-.company div{
-    margin-right: 15rem;
-}
-.company2 img{
-    margin-right: unset;
-    margin-left: 20rem;
-}
-.company2 div {
-    margin-right: unset;
-}
+
 .info {
     display: flex;
     flex-direction: column;
@@ -379,8 +373,8 @@ html {
 #contacts {
     width: 100%;
     height: auto;
-    padding: 3rem 6rem;
-    background: #171717;
+    padding: 3rem 12rem;
+    background: #111;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -389,7 +383,7 @@ html {
 #contacts .contacts-container {
     display: flex;
     width: 100%;
-    max-width: 64rem;
+    max-width: 57rem;
     align-items: center;
     flex-direction: column;
     gap: 2rem;
@@ -401,22 +395,31 @@ html {
     flex-direction: column;
     align-items: center;
 }
-.form-sides{
+
+.form-sides {
     display: flex;
     width: 100%;
-    flex-direction: row !important;
+    flex-direction: column;
     justify-content: space-evenly;
-    
+    align-items: center;
+
 }
-.left{
+
+.left {
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    gap: 2rem;
 }
-.right{
+
+.left div {
+    width: 100%;
+}
+
+.right {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 32rem;
 }
 
 .form label,
@@ -427,23 +430,25 @@ button {
     font-size: 1.3rem;
     font-weight: 600;
 }
-.form label{
+
+.form label {
     padding: .5rem 0rem;
 }
+
 .form input,
 textarea {
-    width: 26rem;
+    width: 100%;
     padding: 1rem;
     margin-bottom: 1rem;
     color: #14FFEC;
-    background-color: #323232;
+    background-color: #ffffff20;
     border-radius: 1rem;
     border: .15rem solid transparent;
     text-decoration: none;
 }
 
 .form textarea {
-    min-height: 14.47rem;
+    min-height: 13rem;
     width: 100%;
     resize: vertical;
     font-family: 'Poppins', sans-serif;
@@ -455,13 +460,13 @@ textarea:hover,
 textarea:focus {
     outline: none;
     border-color: #14FFEC;
-    box-shadow: 0 0 .5rem .2rem rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 .5rem .2rem #ffffff1a;
 }
 
 .form button {
-    
+    margin-top: 1rem;
     color: #ffffff;
-    padding: 1.13rem;
+    padding: 1.1rem;
     background-color: #14ffeb4d;
     border-radius: 1rem;
     transition: .3s;
