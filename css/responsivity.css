@@ -130,7 +130,10 @@
         display: none;
     }
 
+    /*-------------------------------------------------*/
+
     #firstSec {
+        height: 100%;
         padding: 4rem;
     }
 
@@ -143,8 +146,8 @@
         width: 40%;
     }
 
-    .aboutMe-container h1 {
-        text-align: center;
+    .aboutMe-info {
+        align-items: center;
     }
 
     .aboutMe-container p {
@@ -253,14 +256,14 @@
 
     }
 
-    .left {
+    .up {
         flex-direction: column;
         align-self: center;
         width: 100%;
         gap: 0rem;
     }
 
-    .left div {
+    .up div {
         display: flex;
         flex-direction: column;
     }
@@ -270,7 +273,7 @@
         width: unset;
     }
 
-    .right {
+    .down {
         width: 100%;
         align-self: center;
         max-width: unset;
@@ -317,19 +320,19 @@
 
     @keyframes svg-color-transition {
         0% {
-            fill: rgba(20, 255, 235, 0.3);
+            fill: var(--darkGreen);
         }
 
         48% {
-            fill: #14FFEC;
+            fill: var(--green);
         }
 
         52% {
-            fill: #14FFEC;
+            fill: var(--green);
         }
 
         100% {
-            fill: rgba(20, 255, 235, 0.3);
+            fill: var(--darkGreen);
         }
     }
 }
@@ -343,7 +346,15 @@
     #firstSec {
         padding: 4rem;
     }
-
+    @keyframes typing{
+        from{
+            width: 0;
+        }
+        to{
+            width: 100%;
+            max-width: 22.4rem;
+        }
+    }
     .aboutMe-container {
         flex-direction: column;
     }
@@ -464,7 +475,7 @@
     p {
         font-size: 1.3rem;
     }
-
+    
     #menu {
         display: none;
     }
@@ -473,6 +484,16 @@
         padding: 4rem 2rem;
     }
 
+    @keyframes typing{
+        from{
+            width: 0;
+        }
+        to{
+            width: 100%;
+            max-width: 19rem;
+        }
+    }
+    
     .aboutMe-container {
         flex-direction: column;
     }
@@ -485,15 +506,16 @@
         width: 80%;
     }
 
-    .aboutMe-container h1 {
+    .aboutMe-info h1 {
         text-align: center;
         margin-bottom: 1rem;
-        width: auto;
+        width: 100%;
     }
 
-    .aboutMe-container p {
-        width: auto;
+    .aboutMe-info p {
+        width: 100%;
         text-align: justify;
+        white-space: wrap;
     }
 
     /* --------------------------------------- */
@@ -595,6 +617,9 @@
 }
 
 @media (max-width: 17.5rem) {
+    .title{
+        word-wrap: break-word;
+    }
     #contacts ul li a {
         padding: .6rem .2rem;
     }
