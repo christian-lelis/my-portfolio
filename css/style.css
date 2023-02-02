@@ -572,7 +572,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #111111;
+    background: linear-gradient(to bottom, var(--black), var(--dark)90%);
+
 
 }
 
