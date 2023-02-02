@@ -421,7 +421,7 @@ html {
     width: 100%;
     height: auto;
     padding: 3rem 12rem;
-    background: linear-gradient(to bottom, var(--dark),var(--black));
+    background: linear-gradient(to bottom, var(--dark),var(--black),var(--dark));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -572,8 +572,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, var(--black), var(--dark)90%);
-
+    background-color: var(--dark);
 
 }
 
