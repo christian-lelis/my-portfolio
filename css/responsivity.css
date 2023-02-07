@@ -9,7 +9,7 @@
 
     /*-------------------------FLAGS------------------------*/
     .flags nav {
-        max-width: 60.4rem;
+        max-width: 59rem;
     }
 
     /* ---------------------------------------------- */
@@ -144,6 +144,7 @@
 
     .aboutMe-container img {
         width: 40%;
+        min-width: 19rem;
     }
 
     .aboutMe-info {
@@ -504,6 +505,7 @@
 
     .aboutMe-container img {
         width: 80%;
+        min-width: 18rem;
     }
 
     .aboutMe-info h1 {
@@ -617,8 +619,42 @@
 }
 
 @media (max-width: 17.5rem) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.9rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+    #firstSec {
+        padding: 4rem 1rem;
+    }
+    #secondSec {
+        padding: 2rem 1rem;
+    }
+    #thirdSec {
+        padding: 2rem 1rem;
+    }
+    #contacts {
+        padding: 2rem 1rem .5em 1rem;
+    }
     .title{
         word-wrap: break-word;
+    }
+    .aboutMe-container img {
+        width: 80%;
+        min-width: 15rem;
+    }
+    .aboutMe-info h1 {
+        white-space: wrap;
     }
     #contacts ul li a {
         padding: .6rem .2rem;
