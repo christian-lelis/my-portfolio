@@ -338,12 +338,13 @@ html {
 
 .experience {
     display: flex;
-    gap:6rem
+    justify-content: space-between;
 }
 
 .company {
     height: 100%;
     width: 100%;
+    max-width: 28rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -377,43 +378,48 @@ html {
 /*---------------------FOURTH SECTION---------------------*/
 #fourthSec {
     height: auto;
-    background-color: #323232;
-    padding: 3rem 6rem 4rem 6rem;
+    background: linear-gradient(to bottom, var(--dark),var(--black));
+    padding: 3rem 12rem 4rem 12rem;
 }
 
 .fourthSec-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 1rem;
+    gap: 4rem;
 }
 
 .title {
     text-align: center;
-}
-
-#fourthSec h2 {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.projects {
-    width: 74rem;
-    display: flex;
-    justify-content: space-evenly;
-}
 
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    column-gap: 0;
+    justify-content: center;
+}
+.button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .button {
-    height: 20rem;
-    width: 20rem;
-    background-color: rgb(0, 0, 0, 0.3);
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0.3rem solid var(--green);
-    border-radius: 20%;
+    flex-direction: column;
 }
-.button img {
-    width: 80%;
+
+.button video, .button img {
+    background-color: rgb(0, 0, 0, 0.3);
+    width: 98%;
+    border: 0.3rem solid var(--green);
+    border-radius: 1rem;
+    z-index: 2;
 }
 
 /*---------------------CONTACTS---------------------*/
@@ -421,7 +427,7 @@ html {
     width: 100%;
     height: auto;
     padding: 3rem 12rem;
-    background: linear-gradient(to bottom, var(--dark),var(--black),var(--dark));
+    background: linear-gradient(to bottom,var(--black),var(--dark));
     display: flex;
     justify-content: center;
     align-items: center;

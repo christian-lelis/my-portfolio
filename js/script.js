@@ -22,11 +22,15 @@ function animationScroll(){
       console.log(elemento)
         if(windowTop > elemento.offsetTop){
             elemento.classList.add(animationClass)
+        } else {
+          elemento.classList.remove(animationClass)
         }
-        console.log(elemento.offsetTop)
     })
 }
 
 window.addEventListener('scroll', debounce(function(){
     animationScroll()
-},100));
+},50));
+
+
+//-------------

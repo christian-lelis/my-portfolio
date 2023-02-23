@@ -63,18 +63,15 @@
 
     /* ------------------------------------------- */
     #fourthSec {
-        height: auto;
-        background-color: #323232;
-        padding: 2rem 2rem 3rem 2rem;
+        padding: 2rem 4rem 3rem 4rem;
     }
 
     .projects {
         width: 100%;
     }
 
-    .button {
-        height: 18rem;
-        width: 18rem;
+    .button video, .button img {
+        width: 90%;
     }
 
     #contacts {
@@ -203,6 +200,7 @@
 
     .experience {
         flex-direction: column;
+        align-items: center;
         gap: 1.5rem;
     }
 
@@ -226,17 +224,17 @@
 
     /* ---------------------------------------- */
     #fourthSec {
-        display: none;
-        padding: 2rem 4rem 3rem 4rem;
+        display: flex;
+        padding: 4rem;
     }
 
     .projects {
-        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
 
-    .button {
-        height: 12rem;
-        width: 12rem;
+    .button video, .button img {
+        width: 80%;
     }
 
     /* ---------------------------------------- */
@@ -423,21 +421,17 @@
 
     /* ---------------------------------------- */
     #fourthSec {
-        display: none;
         padding: 4rem;
     }
 
     .projects {
-        display: none;
         gap: 1rem;
         flex-wrap: wrap;
         justify-content: center;
         height: auto;
     }
-
-    .button {
-        height: 11rem;
-        width: 11rem;
+    .button video, .button img {
+        width: 100%;
     }
 
     /* ---------------------------------------- */
@@ -589,23 +583,15 @@
 
     /* ---------------------------------------- */
     #fourthSec {
-        display: none;
-        height: auto;
-        padding: 2rem 2rem;
+        padding: 3rem 2rem;
     }
 
     .projects {
-        display: none;
         gap: 1rem;
-        flex-wrap: wrap;
         width: 100%;
-        justify-content: center;
     }
 
-    .button {
-        height: 15rem;
-        width: 15rem;
-    }
+    
 
     .button:hover {
         transform: none;
